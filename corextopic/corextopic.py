@@ -19,10 +19,10 @@ Lily Fierro
 License: Apache V2
 """
 
-import numpy as np  # Tested with 1.8.0
+import numpy as np
 from os import makedirs
 from os import path
-from scipy.misc import logsumexp  # Tested with 0.13.0
+from scipy.special import logsumexp
 import scipy.sparse as ss
 from six import string_types # For Python 2&3 compatible string checking
 from sklearn.externals import joblib
