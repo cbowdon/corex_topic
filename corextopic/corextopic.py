@@ -25,7 +25,7 @@ from os import path
 from scipy.special import logsumexp
 import scipy.sparse as ss
 from six import string_types # For Python 2&3 compatible string checking
-from sklearn.externals import joblib
+import joblib
 
 
 class Corex(object):
